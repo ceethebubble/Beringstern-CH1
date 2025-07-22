@@ -1,0 +1,36 @@
+if asset_get_index("spr_bgb_" + background) != -1
+{
+	sprite_index = asset_get_index("spr_bgb_" + background)
+	x = 0
+	y = 0
+}
+
+hpChange += (global.hp - hpChange) / 5
+hpPercent = hpChange / global.maxhp
+hpOpponentChange += (global.opponent_hp - hpOpponentChange) / 5
+hpOpponentPercent = hpOpponentChange / global.opponent_maxhp
+
+if global.hp <= 0
+{
+	room_goto(cts_game_over)
+}
+
+
+if !global.cutscene
+{
+	global.timeSpent += 1/room_speed
+	volume += 0.2
+	guidown += (0 - guidown) / 10
+}
+else
+{
+	volume -= 0.2
+	guidown += (250 - guidown) / 20
+}
+
+if volume > 1
+	volume = 1
+else if volume < 0
+	volume = 0
+	
+audio_sound_gain(music,volume,0)

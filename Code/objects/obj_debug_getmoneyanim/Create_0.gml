@@ -1,0 +1,4 @@
+original_size_x = 73
+original_size_y = 25
+draw_stuff = false;
+alpha = 1;
