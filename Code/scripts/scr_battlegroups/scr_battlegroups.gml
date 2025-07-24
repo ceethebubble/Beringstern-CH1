@@ -32,3 +32,8 @@ function scr_battlegroups()
 			break;
 	}
 }
+
+function start_encounter()
+{
+	instance_create_depth(0,0,-9999,obj_encounter_transition)
+}

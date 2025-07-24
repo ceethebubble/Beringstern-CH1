@@ -123,7 +123,7 @@ function draw_player_colors()
 function fade_to_room(roomToGo,changingPos=false,playerXTo=0,playerYTo=0)
 {
 		global.cutscene = true;
-		var fadeObj = instance_create_depth(0,0,-9999, obj_fade)
+		var fadeObj = instance_create_depth(0,0,-9999,obj_fade)
 		fadeObj.roomtrans = roomToGo
 		fadeObj.playerchangepos = changingPos
 		fadeObj.xgoing = playerXTo

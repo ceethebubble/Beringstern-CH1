@@ -138,7 +138,16 @@ function loadFile(fade = true,room_go = true)
 		}
 		
 		if variable_struct_exists(_struct, "flags")
-			global.flags = _struct.flags;
+		{
+			var savedFlags = _struct.flags;
+			
+			// Loop through the array elements
+			var len = array_length(savedFlags);
+			for (var i = 0; i < len; i++) {
+				global.flags[i] = savedFlags[i];
+			}
+		}
+
 		global.name_of_avatar = _struct.avatar_name;
 		global.job = _struct.job;
 		global.name = _struct.player_name;

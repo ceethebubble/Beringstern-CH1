@@ -39,6 +39,8 @@ global.did_screenshot = false
 
 volume = 1
 
+fading = 0
+
 // a bunch of player avatar
 
 avatarBaseR = global.avatarR;

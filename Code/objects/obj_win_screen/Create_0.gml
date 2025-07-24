@@ -65,6 +65,7 @@ prev_fullscreen = window_get_fullscreen();
 
 if global.ending = 1
 {
+	global.flags[5] += 1
 	alarm[0] = 1.84*room_speed
 	jingle = "k"
 	sprite_index = spr_player_results_k
@@ -72,6 +73,7 @@ if global.ending = 1
 }
 else
 {
+	global.flags[4] += 1
 	alarm[0] = 1.34*room_speed
 	jingle = "s"
 	sprite_index = spr_player_results_s
