@@ -36,4 +36,4 @@ This chapter includes a modding center which teaches you how to make:
   - Music
   - Texture packs
 
-Here is the link! https://docs.google.com/document/d/1p6H2ovnRjHk3aPYDe1U8XtC6dv9JZ8U_QP01R3-6wXM/edit?tab=t.0
+Modding center is on the wiki!
