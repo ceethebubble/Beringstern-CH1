@@ -16,7 +16,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"profile",
-    "path":"folders/Objects/profile.yy",
+    "path":"folders/Objects/menu/profile.yy",
   },
   "parentObjectId":null,
   "persistent":false,

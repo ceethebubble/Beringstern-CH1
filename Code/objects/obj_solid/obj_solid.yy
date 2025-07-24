@@ -6,8 +6,8 @@
   "name":"obj_solid",
   "overriddenProperties":[],
   "parent":{
-    "name":"solids and triggers",
-    "path":"folders/Objects/blocks/solids and triggers.yy",
+    "name":"solids",
+    "path":"folders/Objects/game/blocks/solids.yy",
   },
   "parentObjectId":{
     "name":"obj_parent_debug",

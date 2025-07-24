@@ -46,6 +46,8 @@ enterSize = 0.5;
 
 punch = false
 
+decuts = false
+
 // --- AVATAR COLOR SETTINGS ---
 avatarBaseR = global.avatarR;
 avatarBaseG = global.avatarG;

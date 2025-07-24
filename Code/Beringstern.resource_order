@@ -1,5 +1,15 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"game","order":12,"path":"folders/Objects/game.yy",},
+    {"name":"battle","order":1,"path":"folders/Objects/game/battle.yy",},
+    {"name":"hazards","order":1,"path":"folders/Objects/game/battle/hazards.yy",},
+    {"name":"blocks","order":4,"path":"folders/Objects/game/blocks.yy",},
+    {"name":"character","order":5,"path":"folders/Objects/game/character.yy",},
+    {"name":"cutscene","order":6,"path":"folders/Objects/game/cutscene.yy",},
+    {"name":"triggers","order":1,"path":"folders/Objects/game/cutscene/triggers.yy",},
+    {"name":"debugButtons","order":11,"path":"folders/Objects/menu/debugButtons.yy",},
+    {"name":"profile","order":12,"path":"folders/Objects/menu/profile.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"fnt_arial","order":1,"path":"fonts/fnt_arial/fnt_arial.yy",},
     {"name":"fnt_default","order":2,"path":"fonts/fnt_default/fnt_default.yy",},
@@ -68,7 +78,7 @@
     {"name":"obj_solid","order":1,"path":"objects/obj_solid/obj_solid.yy",},
     {"name":"obj_stats_icons","order":7,"path":"objects/obj_stats_icons/obj_stats_icons.yy",},
     {"name":"obj_title","order":8,"path":"objects/obj_title/obj_title.yy",},
-    {"name":"obj_trigger_parent","order":3,"path":"objects/obj_trigger_parent/obj_trigger_parent.yy",},
+    {"name":"obj_trigger_first_encounter","order":1,"path":"objects/obj_trigger_first_encounter/obj_trigger_first_encounter.yy",},
     {"name":"obj_tutorial","order":9,"path":"objects/obj_tutorial/obj_tutorial.yy",},
     {"name":"obj_voice_lines","order":10,"path":"objects/obj_voice_lines/obj_voice_lines.yy",},
     {"name":"obj_wildlife_protector","order":4,"path":"objects/obj_wildlife_protector/obj_wildlife_protector.yy",},

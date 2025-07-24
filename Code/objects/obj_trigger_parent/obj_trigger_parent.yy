@@ -10,8 +10,8 @@
   "name":"obj_trigger_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"solids and triggers",
-    "path":"folders/Objects/blocks/solids and triggers.yy",
+    "name":"triggers",
+    "path":"folders/Objects/game/cutscene/triggers.yy",
   },
   "parentObjectId":{
     "name":"obj_parent_debug",

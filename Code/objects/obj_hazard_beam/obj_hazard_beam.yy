@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"hazards",
-    "path":"folders/Objects/battle/hazards.yy",
+    "path":"folders/Objects/game/battle/hazards.yy",
   },
   "parentObjectId":{
     "name":"obj_parent_hazard",

@@ -14,7 +14,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"gui",
-    "path":"folders/Objects/gui.yy",
+    "path":"folders/Objects/game/gui.yy",
   },
   "parentObjectId":null,
   "persistent":false,

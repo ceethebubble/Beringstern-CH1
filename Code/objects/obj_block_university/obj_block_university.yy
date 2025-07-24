@@ -16,7 +16,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"buildings",
-    "path":"folders/Objects/blocks/buildings.yy",
+    "path":"folders/Objects/game/blocks/buildings.yy",
   },
   "parentObjectId":{
     "name":"obj_interactable_block",

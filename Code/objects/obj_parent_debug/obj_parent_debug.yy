@@ -8,8 +8,8 @@
   "name":"obj_parent_debug",
   "overriddenProperties":[],
   "parent":{
-    "name":"solids and triggers",
-    "path":"folders/Objects/blocks/solids and triggers.yy",
+    "name":"solids",
+    "path":"folders/Objects/game/blocks/solids.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_debug_0",
+    "path":"sprites/spr_debug_0/spr_debug_0.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

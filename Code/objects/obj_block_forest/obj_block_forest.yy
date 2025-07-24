@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"nature",
-    "path":"folders/Objects/blocks/nature.yy",
+    "path":"folders/Objects/game/blocks/nature.yy",
   },
   "parentObjectId":{
     "name":"obj_parent_block",

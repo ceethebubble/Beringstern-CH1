@@ -16,7 +16,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"vehicles",
-    "path":"folders/Objects/blocks/vehicles.yy",
+    "path":"folders/Objects/game/blocks/vehicles.yy",
   },
   "parentObjectId":{
     "name":"obj_parent_block",

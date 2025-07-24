@@ -27,7 +27,7 @@ if room != rm_battle
 // Handle animation states
 makeCharacterAnimations();
 	
-if !global.cutscene
+if !global.cutscene or decuts
 {
 	
 	// --- MOVEMENT CONTROLS ---

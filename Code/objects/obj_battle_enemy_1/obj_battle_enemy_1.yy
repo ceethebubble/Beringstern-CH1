@@ -17,7 +17,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"enemies",
-    "path":"folders/Objects/battle/enemies.yy",
+    "path":"folders/Objects/game/battle/enemies.yy",
   },
   "parentObjectId":{
     "name":"obj_battle_parent",

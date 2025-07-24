@@ -19,7 +19,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"debugButtons",
-    "path":"folders/Objects/debugButtons.yy",
+    "path":"folders/Objects/menu/debugButtons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
