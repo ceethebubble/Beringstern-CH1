@@ -61,17 +61,11 @@ switch (global.room_statement) {
 }
 
 if room = rm_wildlife
-{
 	global.room_statement = "wildlife";
-}
 else if room = rm_proffesor
-{
 	global.room_statement = "proffesor";
-}
 else
-{
 	global.room_statement = "overworld"
-}
 
 global.room = room
 

@@ -120,11 +120,14 @@ function draw_player_colors()
 	shader_set_uniform_f(shader_get_uniform(shdr_player_custom, "avatarShoeB"), avatarShoeB);
 }
 
-function fade_to_room(roomToGo)
+function fade_to_room(roomToGo,changingPos=false,playerXTo=0,playerYTo=0)
 {
 		global.cutscene = true;
 		var fadeObj = instance_create_depth(0,0,-9999, obj_fade)
 		fadeObj.roomtrans = roomToGo
+		fadeObj.playerchangepos = changingPos
+		fadeObj.xgoing = playerXTo
+		fadeObj.ygoing = playerYTo
 }
 
 function settings_sections(_section,_number,_label)

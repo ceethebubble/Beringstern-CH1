@@ -6,3 +6,7 @@ fade_out = 1;
 state = fade_in;
 roomtrans = rm_profile;
 persistent = true
+
+playerchangepos = false
+xgoing = 0
+ygoing = 0

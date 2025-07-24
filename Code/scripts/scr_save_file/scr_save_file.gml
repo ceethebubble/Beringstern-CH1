@@ -142,8 +142,11 @@ function loadFile(fade = true,room_go = true)
 		global.name_of_avatar = _struct.avatar_name;
 		global.job = _struct.job;
 		global.name = _struct.player_name;
-		global.playerx = _struct.player_x;
-		global.playery = _struct.player_y;
+		if variable_struct_exists(_struct,"player_x") && variable_struct_exists(_struct,"player_y")
+		{
+			global.playerx = _struct.player_x;
+			global.playery = _struct.player_y;
+		}
 		if variable_struct_exists(_struct, "bplayer_x")
 		{
 			global.bplayerx = _struct.bplayer_x;
