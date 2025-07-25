@@ -64,7 +64,6 @@ if not dying and not sparing
 
 	if image_index >= 30 && sprite_index = spr_enemy_2_attack
 	{
-		obj_enemy_laser.changing = true;
 		if image_index >= 43
 		{
 			sprite_index = spr_enemy_2_idle
