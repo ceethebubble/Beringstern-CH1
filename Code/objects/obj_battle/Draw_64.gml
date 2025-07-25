@@ -46,7 +46,7 @@ draw_rectangle(10,730+guidown,10 + 230 * hpPercent,750+guidown,false)
 draw_set_color(c_black)
 draw_rectangle(250,650+guidown,500,768+guidown,false)
 
-draw_sprite_ext(opponent_icon_sprite,5,260,660+guidown,0.5,0.5,0,c_white,guialpha)
+draw_sprite_ext(opponent_icon_sprite,0,260,660+guidown,0.5,0.5,0,c_white,guialpha)
 shader_reset()
 
 draw_set_halign(fa_left)
