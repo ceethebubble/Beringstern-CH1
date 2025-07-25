@@ -40,7 +40,7 @@ function scr_battlegroups()
 			global.playerx = 1024
 			global.playery = 650
 			
-			global.battletime = 5
+			global.battletime = 15
 			global.styleGoal = 5
 			break;
 	}

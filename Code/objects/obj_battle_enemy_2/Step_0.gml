@@ -128,8 +128,11 @@ if sparing or dying
    camera_set_view_size(view_camera[0], camWidth / camera_zoom, camHeight / camera_zoom);
 }
 
-if dying or sparing
+if sparing
 {
-	if instance_exists(obj_dialogue)
-		instance_destroy(obj_dialogue)
+	if image_index = 12
+	{
+		instance_create_depth(x+20,y-5,depth-999,obj_enemy_fake_laser)
+		instance_create_depth(x-15,y-5,depth-999,obj_enemy_fake_laser)
+	}
 }

@@ -2,12 +2,12 @@ audio_stop_all()
 
 showResults = false
 
-timeRatio = (global.timeSpent - 5) / 50; // you can tweak "50" to control how slow it falls
-timeCalc = clamp(1 - timeRatio, 0, 1);
+timeRatio = global.battletime / global.timeSpent
+timeCalc = clamp(timeRatio, 0, 1);
 hpCalc = clamp((global.hp / global.maxhp) * 1000,0,999)
 stylishPoints = round(global.stylishPoints)
 
-timeClamped = clamp(round(timeCalc*1000), 0, 999);
+timeClamped = clamp(timeCalc*1000, 0, 999);
 
 timeNumbers = "";
 
