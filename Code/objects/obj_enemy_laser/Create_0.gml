@@ -16,9 +16,9 @@ alarm[2] = room_speed * 1.4
 alarm[1] = room_speed * 0.4
 alarm[0] = room_speed * 0.8
 audio_play_sound(sfx_laser,0,false)
-alphathing = 0
-alarm[4] = 1
+alphathing = 10
 
 // do NOT change!
 timer = 0
+timer2 = 10
 draining = 0

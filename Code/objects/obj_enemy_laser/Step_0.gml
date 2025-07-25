@@ -8,10 +8,12 @@ if (point_distance(x, y, obj_player.x, obj_player.y) <= 20)
 
 image_xscale = lerp(image_xscale, target_scale, scale_speed);
 
-if round(alphathing) = alphathing or alphathing + 0.5 = round(alphathing)
+if timer2 < 8
 {
 	audio_stop_sound(sfx_dong)
 	play_sfx(sfx_dong)
+	if timer2 == 0
+		timer2 = 10
 	image_alpha = 0.01
 }
 else
@@ -26,6 +28,9 @@ if instance_exists(obj_battle_enemy_2)
 }
 	
 image_yscale = 2 / image_xscale
+
+if timer2 > 0
+	timer2 -= 1
 
 x += xchange
 image_angle += angledir
