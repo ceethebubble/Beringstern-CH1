@@ -62,12 +62,15 @@ if not dying and not sparing
 		}
 	}
 
-	if image_index >= 43 && sprite_index = spr_enemy_2_attack
+	if image_index >= 30 && sprite_index = spr_enemy_2_attack
 	{
-		obj_hazard_beam.changing = true;
-		sprite_index = spr_enemy_2_idle
-		image_index = 0
-		alarm[1] = room_speed;
+		obj_enemy_laser.changing = true;
+		if image_index >= 43
+		{
+			sprite_index = spr_enemy_2_idle
+			image_index = 0
+			alarm[1] = room_speed;
+		}
 	}
 
 }

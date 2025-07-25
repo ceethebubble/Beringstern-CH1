@@ -1,4 +1,4 @@
-if place_meeting(x, y, obj_player) and timer == 0
+if place_meeting(x, y, obj_player) and timer <= 0
 {
 	global.hp -= damage;
 	global.stylishPoints -= 10

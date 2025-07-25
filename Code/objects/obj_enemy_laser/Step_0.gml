@@ -14,9 +14,13 @@ else if image_xscale < 5
 }
 
 if (changing)
-	image_alpha -= 0.2
+	image_alpha -= 0.05
 else
 	image_alpha += 0.035
 	
 if image_alpha <= 0 or global.ending > 0
 	instance_destroy()
+	
+image_yscale = 2 / image_xscale
+
+x += dir
